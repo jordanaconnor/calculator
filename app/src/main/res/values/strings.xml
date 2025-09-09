@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">calculator</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_2">2</string>
+    <string name="button_1">1</string>
+    <string name="button_6">6</string>
+    <string name="button_multiply">*</string>
+    <string name="button_subtract">-</string>
+    <string name="button_clear">C</string>
+    <string name="button_3">3</string>
+    <string name="button_parenthesis1">)</string>
+    <string name="button_mod">mod</string>
+    <string name="button_divide">/</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_decimal">.</string>
+    <string name="button_modulus">%</string>
+    <string name="button_addition">+</string>
+    <string name="button_pi">n</string>
+    <string name="button_sq_root">√</string>
+    <string name="button_squared">x²</string>
+    <string name="button_equals">=</string>
+    <string name="github_jordanaconnor">GitHub: jordanaconnor</string>
 </resources>
