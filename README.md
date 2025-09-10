@@ -18,7 +18,7 @@ Implements the **Shunting Yard Algorithm** for correct operator precedence and s
 
 ## How to Install
 ### Option 1: Android Phone
-1. Go to this repository and download the **signed APK** file from a mobile browser or from your computer.
+1. Go to this repository and download the **signed APK** file from a mobile browser or from your computer byt clicking `view raw`.
 2. Transfer the file to your Android phone (if you downloaded it on your computer first).
 3. Open it and allow installation from unknown sources.
 4. Launch the Calculator app.
