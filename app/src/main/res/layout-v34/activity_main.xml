@@ -5,9 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/system_palette_key_color_neutral_variant_dark"
-    tools:context=".UI.MainActivity"
-    tools:targetApi="34">
+    android:background="#2F3337"
+    tools:context=".UI.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/calculateLayout"
@@ -20,13 +19,14 @@
 
         <TextView
             android:id="@+id/calculateTextView"
-            android:layout_width="match_parent"
+            android:layout_width="383dp"
             android:layout_height="155dp"
             android:ellipsize="none"
             android:gravity="end|bottom"
             android:scrollHorizontally="true"
             android:singleLine="true"
-            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:text="@string/creator_string"
+            android:textColor="#FFFFFF"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/calculateTextView"
             app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +64,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:gravity="end"
+            android:textColor="#FFFFFF"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +81,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/outputLayout">
 
-        <!--suppress AndroidMissingOnClickHandler -->
         <Button
             android:id="@+id/clearBtn"
             android:layout_width="78dp"
